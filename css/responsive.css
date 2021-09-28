@@ -1,0 +1,99 @@
+@media all and (max-width: 1400px){
+    .orimg {
+        width: 313px;
+        margin: 19px 19px;
+    }
+    .banner-img {
+        max-width: 100%;
+         margin-top: 56px;
+     
+     }
+}
+@media all and (max-width: 1341px){
+    .orimg {
+        width: 313px;
+        margin: 19px 19px;
+        max-width: 100%;
+    }
+}
+
+@media all and (max-width: 1197px){
+    .orimg {
+        width: 254px;
+        margin: 19px 19px;
+    }
+    .banner-img {
+        width: 491px;
+        margin-top: 117px;
+    }
+    .header-text h1 {
+        font-size: 43px;
+        font-weight: 600;
+        color: #575757;
+        margin-bottom: -21px;
+    }
+    .header-text p {
+        font-size: 22px;
+        margin-top: 59px;
+        line-height: 36px;
+        color: #828282;
+        margin-bottom: -9px;
+    }
+    .about-img {
+        max-width: 100%;
+        width: 335px;
+        margin-left: 71px;
+        margin-top: 164px;
+    }
+    .about-text {
+        margin-top: 229px;
+    }
+}
+@media all and (max-width: 990px){
+    .orimg {
+        width: 649px;
+    }
+    .banner-img {
+        margin-left: 101px;
+    }
+    .about-img {
+        max-width: 100%;
+        width: 335px;
+        margin-left: 173px;
+        margin-top: 136px;
+    }
+    .header-text {
+        margin-top: 100px;
+    }
+    .our-recipies-text {
+        margin-top: 113px;
+        
+    }
+    .about-text {
+        margin-top: 116px;
+    }
+    .banner-btn {
+        margin-bottom: 37px;
+    }
+}
+@media all and (max-width: 774px){
+    .orimg {
+        width: 646px;
+    }
+}
+@media all and (max-width: 760px){
+    .orimg {
+        width: 469px;
+    }
+    .banner-img {
+        margin-left: 22px;
+    }
+}
+
+
+
+
+
+
+
+

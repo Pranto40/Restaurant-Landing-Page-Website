@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body,h1,h2,h3,h4,h5,h6,a,span{
+    font-family: 'Montserrat', sans-serif;
+}
+.img{
+    max-width: 100%;
+}
+.header-section{
+    background: #FD5C36;
+}
+
+.our-menu li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 30px;
+}
+.our-menu li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.our-menu li::after{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: #fff;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.our-menu li:hover::after{
+    width: 100%;
+}
+
+.primary-btn {
+    border: 1px solid #ddd;
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 40px;
+    text-decoration: none;
+    background: #fff;
+    color: #FD5C36;
+    font-weight: 600;
+}
+
+.header-text {
+    margin-top: 218px;
+  }
+  .header-text h1 {
+    font-size: 62px;
+    font-weight: 600;
+    color: #575757;
+  }
+  .header-text p {
+    font-size: 22px;
+    margin-top: 59px;
+    line-height: 36px;
+    color: #828282;
+  }
+  .banner-btn{}
+  .bn-btn {
+    border: 1px solid #ddd;
+    display: inline-block;
+    padding: 21px 40px;
+    border-radius: 40px;
+    text-decoration: none;
+    color: #fff;
+    background: #FD944A;
+    margin-top: 42px;
+  }
+  .banner-img {
+    margin-top: 56px;
+}
+
+.about-section {
+    background: #FFF4ED;
+    margin-top: 81px;
+}
+
+.about-img {
+    max-width: 100%;
+    width: 335px;
+    margin-left: 150px;
+    margin-top: 98px;
+}
+
+.about-text {
+    margin-top: 184px;
+  }
+  .about-text h2 {
+    font-size: 34px;
+    color: #797878;
+    margin-bottom: 29px;
+  }
+  .about-text p {
+    font-size: 23px;
+}
+
+.our-recipies-text {
+    margin-top: 75px;
+    text-align: center;
+    margin-bottom: 56px;
+    color: #767676;
+  }
+  .our-recipies-text h1 {
+    font-size: 41px;
+    color: #867D7D;
+    margin-bottom: 32px;
+  }
+  .our-recipies-text p {
+    font-size: 33px;
+  }
+
+  .orimg {
+    width: 374px;
+    margin: 19px 19px;
+}
+.our-recipies-img h3 {
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 17px;
+    margin-left: 21px;
+  }
+  .our-recipies-img p {
+    font-size: 21px;
+    margin-left: 17px;
+  }
+  .our-recipies-img {
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,.1);
+    border-radius: 26px;
+}
+
+.our-recipies-full-icon {
+    margin-top: 95px;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,.1);
+    border-radius: 20px;
+  }
+  .our-recipies-icon {
+    text-align: center;
+    margin: 35px 0px;
+  }
+
+  .FOOD-NETWORK {
+    background: #0B0D17;
+    margin-top: 95px;
+    text-align: center;
+    color: #fff;
+    padding: 58px;
+}
+.food-network-text h1 {
+    margin-bottom: 25px;
+    font-size: 33px;
+}
+
+.pranto {
+    text-align: center;
+    margin-top: 20px;
+    padding: 25px;
+}
+
+
+
